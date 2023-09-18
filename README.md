@@ -23,7 +23,7 @@ The effective tax rate calculator project calculates the effective tax rate.
 ### Program Files:
 1. README.md - This file. Explains this project.
 2. project.py - Contains project code. See "project.py" section below for in-depth explaination of the code.
-3. requirements.txt - Lists pip-installable libraries that project.py requires. "reportlab.pdfgen" is required to create the output pdf.
+3. requirements.txt - Lists pip-installable libraries that project.py requires. "reportlab.pdfgen" is required to create the output pdf and "pytest" was used for testing.
 4. Effective_Tax_Rate.pdf - Output of program. File will be overwritten each time project.py successfully runs unless this pdf file is manually renamed.
 5. test_project.py - Contains tests for the following functions in project.py: calc_agi, calc_OASDI, calc_medicare, validate_cash_input, calc_federal, and calc_effective_tax_rate
 
